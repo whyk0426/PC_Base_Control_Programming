@@ -8,3 +8,13 @@ C:\Users\COM\Desktop\Week3\비트계산기\비트계산기\obj\Debug\비트계�
 C:\Users\COM\Desktop\Week3\비트계산기\비트계산기\obj\Debug\비트계산기.csproj.CoreCompileInputs.cache
 C:\Users\COM\Desktop\Week3\비트계산기\비트계산기\obj\Debug\비트계산기.exe
 C:\Users\COM\Desktop\Week3\비트계산기\비트계산기\obj\Debug\비트계산기.pdb
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\Week3\비트계산기\비트계산기\bin\Debug\비트계산기.exe.config
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\Week3\비트계산기\비트계산기\bin\Debug\비트계산기.exe
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\Week3\비트계산기\비트계산기\bin\Debug\비트계산기.pdb
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\Week3\비트계산기\비트계산기\obj\Debug\비트계산기.csproj.AssemblyReference.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\Week3\비트계산기\비트계산기\obj\Debug\비트계산기.Form1.resources
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\Week3\비트계산기\비트계산기\obj\Debug\비트계산기.Properties.Resources.resources
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\Week3\비트계산기\비트계산기\obj\Debug\비트계산기.csproj.GenerateResource.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\Week3\비트계산기\비트계산기\obj\Debug\비트계산기.csproj.CoreCompileInputs.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\Week3\비트계산기\비트계산기\obj\Debug\비트계산기.exe
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\Week3\비트계산기\비트계산기\obj\Debug\비트계산기.pdb

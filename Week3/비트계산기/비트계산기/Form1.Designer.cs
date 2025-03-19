@@ -30,7 +30,7 @@
         {
             this.textBox_Number = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.textIndex = new System.Windows.Forms.TextBox();
+            this.textbox_Index = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button_On = new System.Windows.Forms.Button();
             this.button_Off = new System.Windows.Forms.Button();
@@ -39,13 +39,13 @@
             this.button_ShiftDown = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.Bits = new System.Windows.Forms.GroupBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox0 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.Bits.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -66,12 +66,12 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textIndex
+            // textbox_Index
             // 
-            this.textIndex.Location = new System.Drawing.Point(12, 115);
-            this.textIndex.Name = "textIndex";
-            this.textIndex.Size = new System.Drawing.Size(72, 21);
-            this.textIndex.TabIndex = 4;
+            this.textbox_Index.Location = new System.Drawing.Point(12, 115);
+            this.textbox_Index.Name = "textbox_Index";
+            this.textbox_Index.Size = new System.Drawing.Size(72, 21);
+            this.textbox_Index.TabIndex = 4;
             // 
             // button2
             // 
@@ -91,6 +91,7 @@
             this.button_On.TabIndex = 6;
             this.button_On.Text = "On";
             this.button_On.UseVisualStyleBackColor = true;
+            this.button_On.Click += new System.EventHandler(this.button_On_Click);
             // 
             // button_Off
             // 
@@ -100,6 +101,7 @@
             this.button_Off.TabIndex = 7;
             this.button_Off.Text = "Off";
             this.button_Off.UseVisualStyleBackColor = true;
+            this.button_Off.Click += new System.EventHandler(this.button_Off_Click);
             // 
             // button_Toggle
             // 
@@ -109,6 +111,7 @@
             this.button_Toggle.TabIndex = 8;
             this.button_Toggle.Text = "Toggle";
             this.button_Toggle.UseVisualStyleBackColor = true;
+            this.button_Toggle.Click += new System.EventHandler(this.button_Toggle_Click);
             // 
             // button_ShiftUp
             // 
@@ -118,6 +121,7 @@
             this.button_ShiftUp.TabIndex = 9;
             this.button_ShiftUp.Text = "ShiftUp";
             this.button_ShiftUp.UseVisualStyleBackColor = true;
+            this.button_ShiftUp.Click += new System.EventHandler(this.button_ShiftUp_Click);
             // 
             // button_ShiftDown
             // 
@@ -127,6 +131,7 @@
             this.button_ShiftDown.TabIndex = 10;
             this.button_ShiftDown.Text = "ShiftDown";
             this.button_ShiftDown.UseVisualStyleBackColor = true;
+            this.button_ShiftDown.Click += new System.EventHandler(this.button_ShiftDown_Click);
             // 
             // checkBox1
             // 
@@ -155,55 +160,15 @@
             this.Bits.TabStop = false;
             this.Bits.Text = "Bits";
             // 
-            // checkBox2
+            // checkBox0
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(19, 193);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(30, 16);
-            this.checkBox2.TabIndex = 12;
-            this.checkBox2.Text = "2";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(19, 161);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(30, 16);
-            this.checkBox3.TabIndex = 13;
-            this.checkBox3.Text = "3";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(19, 130);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(30, 16);
-            this.checkBox4.TabIndex = 14;
-            this.checkBox4.Text = "4";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(19, 94);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(30, 16);
-            this.checkBox5.TabIndex = 15;
-            this.checkBox5.Text = "5";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(19, 58);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(30, 16);
-            this.checkBox6.TabIndex = 16;
-            this.checkBox6.Text = "6";
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox0.AutoSize = true;
+            this.checkBox0.Location = new System.Drawing.Point(19, 247);
+            this.checkBox0.Name = "checkBox0";
+            this.checkBox0.Size = new System.Drawing.Size(30, 16);
+            this.checkBox0.TabIndex = 18;
+            this.checkBox0.Text = "0";
+            this.checkBox0.UseVisualStyleBackColor = true;
             // 
             // checkBox7
             // 
@@ -215,15 +180,55 @@
             this.checkBox7.Text = "7";
             this.checkBox7.UseVisualStyleBackColor = true;
             // 
-            // checkBox0
+            // checkBox6
             // 
-            this.checkBox0.AutoSize = true;
-            this.checkBox0.Location = new System.Drawing.Point(19, 247);
-            this.checkBox0.Name = "checkBox0";
-            this.checkBox0.Size = new System.Drawing.Size(30, 16);
-            this.checkBox0.TabIndex = 18;
-            this.checkBox0.Text = "0";
-            this.checkBox0.UseVisualStyleBackColor = true;
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(19, 58);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(30, 16);
+            this.checkBox6.TabIndex = 16;
+            this.checkBox6.Text = "6";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(19, 94);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(30, 16);
+            this.checkBox5.TabIndex = 15;
+            this.checkBox5.Text = "5";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(19, 130);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(30, 16);
+            this.checkBox4.TabIndex = 14;
+            this.checkBox4.Text = "4";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(19, 161);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(30, 16);
+            this.checkBox3.TabIndex = 13;
+            this.checkBox3.Text = "3";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(19, 193);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(30, 16);
+            this.checkBox2.TabIndex = 12;
+            this.checkBox2.Text = "2";
+            this.checkBox2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -237,7 +242,7 @@
             this.Controls.Add(this.button_Off);
             this.Controls.Add(this.button_On);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.textIndex);
+            this.Controls.Add(this.textbox_Index);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox_Number);
             this.Name = "Form1";
@@ -253,7 +258,7 @@
 
         private System.Windows.Forms.TextBox textBox_Number;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textIndex;
+        private System.Windows.Forms.TextBox textbox_Index;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button_On;
         private System.Windows.Forms.Button button_Off;
