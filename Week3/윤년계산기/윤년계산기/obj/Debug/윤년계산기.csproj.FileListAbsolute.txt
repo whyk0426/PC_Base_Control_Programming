@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\윤년계산기\윤년계산기\bin\Debug\윤년계산기.exe.config
+C:\Users\COM\Desktop\윤년계산기\윤년계산기\bin\Debug\윤년계산기.exe
+C:\Users\COM\Desktop\윤년계산기\윤년계산기\bin\Debug\윤년계산기.pdb
+C:\Users\COM\Desktop\윤년계산기\윤년계산기\obj\Debug\윤년계산기.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\윤년계산기\윤년계산기\obj\Debug\윤년계산기.Form1.resources
+C:\Users\COM\Desktop\윤년계산기\윤년계산기\obj\Debug\윤년계산기.Properties.Resources.resources
+C:\Users\COM\Desktop\윤년계산기\윤년계산기\obj\Debug\윤년계산기.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\윤년계산기\윤년계산기\obj\Debug\윤년계산기.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\윤년계산기\윤년계산기\obj\Debug\윤년계산기.exe
+C:\Users\COM\Desktop\윤년계산기\윤년계산기\obj\Debug\윤년계산기.pdb

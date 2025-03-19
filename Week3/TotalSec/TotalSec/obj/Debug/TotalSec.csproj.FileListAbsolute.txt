@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\Week3\TotalSec\TotalSec\bin\Debug\TotalSec.exe.config
+C:\Users\COM\Desktop\Week3\TotalSec\TotalSec\bin\Debug\TotalSec.exe
+C:\Users\COM\Desktop\Week3\TotalSec\TotalSec\bin\Debug\TotalSec.pdb
+C:\Users\COM\Desktop\Week3\TotalSec\TotalSec\obj\Debug\TotalSec.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\Week3\TotalSec\TotalSec\obj\Debug\TotalSec.Form1.resources
+C:\Users\COM\Desktop\Week3\TotalSec\TotalSec\obj\Debug\TotalSec.Properties.Resources.resources
+C:\Users\COM\Desktop\Week3\TotalSec\TotalSec\obj\Debug\TotalSec.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\Week3\TotalSec\TotalSec\obj\Debug\TotalSec.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\Week3\TotalSec\TotalSec\obj\Debug\TotalSec.exe
+C:\Users\COM\Desktop\Week3\TotalSec\TotalSec\obj\Debug\TotalSec.pdb

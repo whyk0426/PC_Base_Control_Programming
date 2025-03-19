@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\Week3_assignment\Week3_assignment\bin\Debug\Week3_assignment.exe.config
+C:\Users\COM\Desktop\Week3_assignment\Week3_assignment\bin\Debug\Week3_assignment.exe
+C:\Users\COM\Desktop\Week3_assignment\Week3_assignment\bin\Debug\Week3_assignment.pdb
+C:\Users\COM\Desktop\Week3_assignment\Week3_assignment\obj\Debug\Week3_assignment.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\Week3_assignment\Week3_assignment\obj\Debug\Week3_assignment.Form1.resources
+C:\Users\COM\Desktop\Week3_assignment\Week3_assignment\obj\Debug\Week3_assignment.Properties.Resources.resources
+C:\Users\COM\Desktop\Week3_assignment\Week3_assignment\obj\Debug\Week3_assignment.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\Week3_assignment\Week3_assignment\obj\Debug\Week3_assignment.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\Week3_assignment\Week3_assignment\obj\Debug\Week3_assignment.exe
+C:\Users\COM\Desktop\Week3_assignment\Week3_assignment\obj\Debug\Week3_assignment.pdb
