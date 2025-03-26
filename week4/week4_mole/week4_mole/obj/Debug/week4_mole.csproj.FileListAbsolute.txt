@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week4\week4_mole\week4_mole\bin\Debug\week4_mole.exe.config
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week4\week4_mole\week4_mole\bin\Debug\week4_mole.exe
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week4\week4_mole\week4_mole\bin\Debug\week4_mole.pdb
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week4\week4_mole\week4_mole\obj\Debug\week4_mole.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week4\week4_mole\week4_mole\obj\Debug\week4_mole.Form1.resources
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week4\week4_mole\week4_mole\obj\Debug\week4_mole.Properties.Resources.resources
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week4\week4_mole\week4_mole\obj\Debug\week4_mole.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week4\week4_mole\week4_mole\obj\Debug\week4_mole.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week4\week4_mole\week4_mole\obj\Debug\week4_mole.exe
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week4\week4_mole\week4_mole\obj\Debug\week4_mole.pdb
