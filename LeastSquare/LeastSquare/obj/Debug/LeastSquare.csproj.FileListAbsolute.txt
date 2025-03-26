@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\LeastSquare\LeastSquare\bin\Debug\LeastSquare.exe.config
+C:\Users\COM\Desktop\LeastSquare\LeastSquare\bin\Debug\LeastSquare.exe
+C:\Users\COM\Desktop\LeastSquare\LeastSquare\bin\Debug\LeastSquare.pdb
+C:\Users\COM\Desktop\LeastSquare\LeastSquare\obj\Debug\LeastSquare.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\LeastSquare\LeastSquare\obj\Debug\LeastSquare.Form1.resources
+C:\Users\COM\Desktop\LeastSquare\LeastSquare\obj\Debug\LeastSquare.Properties.Resources.resources
+C:\Users\COM\Desktop\LeastSquare\LeastSquare\obj\Debug\LeastSquare.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\LeastSquare\LeastSquare\obj\Debug\LeastSquare.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\LeastSquare\LeastSquare\obj\Debug\LeastSquare.exe
+C:\Users\COM\Desktop\LeastSquare\LeastSquare\obj\Debug\LeastSquare.pdb
