@@ -1,0 +1,10 @@
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\Homework_LeastSquare\Homework_LeastSquare\bin\Debug\Homework_LeastSquare.exe.config
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\Homework_LeastSquare\Homework_LeastSquare\bin\Debug\Homework_LeastSquare.exe
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\Homework_LeastSquare\Homework_LeastSquare\bin\Debug\Homework_LeastSquare.pdb
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\Homework_LeastSquare\Homework_LeastSquare\obj\Debug\Homework_LeastSquare.csproj.AssemblyReference.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\Homework_LeastSquare\Homework_LeastSquare\obj\Debug\Homework_LeastSquare.Form1.resources
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\Homework_LeastSquare\Homework_LeastSquare\obj\Debug\Homework_LeastSquare.Properties.Resources.resources
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\Homework_LeastSquare\Homework_LeastSquare\obj\Debug\Homework_LeastSquare.csproj.GenerateResource.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\Homework_LeastSquare\Homework_LeastSquare\obj\Debug\Homework_LeastSquare.csproj.CoreCompileInputs.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\Homework_LeastSquare\Homework_LeastSquare\obj\Debug\Homework_LeastSquare.exe
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\Homework_LeastSquare\Homework_LeastSquare\obj\Debug\Homework_LeastSquare.pdb

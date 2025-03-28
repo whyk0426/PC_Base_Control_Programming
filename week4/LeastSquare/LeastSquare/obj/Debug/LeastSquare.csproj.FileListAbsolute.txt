@@ -8,3 +8,13 @@ C:\Users\COM\Desktop\LeastSquare\LeastSquare\obj\Debug\LeastSquare.csproj.Genera
 C:\Users\COM\Desktop\LeastSquare\LeastSquare\obj\Debug\LeastSquare.csproj.CoreCompileInputs.cache
 C:\Users\COM\Desktop\LeastSquare\LeastSquare\obj\Debug\LeastSquare.exe
 C:\Users\COM\Desktop\LeastSquare\LeastSquare\obj\Debug\LeastSquare.pdb
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\LeastSquare\LeastSquare\obj\Debug\LeastSquare.csproj.AssemblyReference.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\LeastSquare\LeastSquare\obj\Debug\LeastSquare.Form1.resources
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\LeastSquare\LeastSquare\obj\Debug\LeastSquare.Properties.Resources.resources
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\LeastSquare\LeastSquare\obj\Debug\LeastSquare.csproj.GenerateResource.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\LeastSquare\LeastSquare\obj\Debug\LeastSquare.csproj.CoreCompileInputs.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\LeastSquare\LeastSquare\obj\Debug\LeastSquare.exe
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\LeastSquare\LeastSquare\obj\Debug\LeastSquare.pdb
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\LeastSquare\LeastSquare\bin\Debug\LeastSquare.exe.config
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\LeastSquare\LeastSquare\bin\Debug\LeastSquare.exe
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week4\LeastSquare\LeastSquare\bin\Debug\LeastSquare.pdb
