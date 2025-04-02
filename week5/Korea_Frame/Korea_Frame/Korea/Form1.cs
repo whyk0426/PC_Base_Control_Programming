@@ -63,7 +63,7 @@ namespace Korea
 
                 //그리기
                 Graphics grp = picDraw.CreateGraphics();
-                for (int i=0; i<cnt; i++)
+                for (int i=1; i<cnt; i++)
                 {
                     grp.DrawLine(new Pen(Color.Black), xpixel(xp[i - 1]), ypixel(yp[i - 1]), xpixel(xp[i]), ypixel(yp[i]));
                 }

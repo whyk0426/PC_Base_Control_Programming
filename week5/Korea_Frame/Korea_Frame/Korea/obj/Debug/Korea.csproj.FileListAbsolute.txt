@@ -39,3 +39,13 @@ C:\Users\COM\Desktop\Korea_Frame\Korea_Frame\Korea\obj\Debug\Korea.csproj.Genera
 C:\Users\COM\Desktop\Korea_Frame\Korea_Frame\Korea\obj\Debug\Korea.csproj.CoreCompileInputs.cache
 C:\Users\COM\Desktop\Korea_Frame\Korea_Frame\Korea\obj\Debug\Korea.exe
 C:\Users\COM\Desktop\Korea_Frame\Korea_Frame\Korea\obj\Debug\Korea.pdb
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week5\Korea_Frame\Korea_Frame\Korea\bin\Debug\Korea.exe.config
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week5\Korea_Frame\Korea_Frame\Korea\bin\Debug\Korea.exe
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week5\Korea_Frame\Korea_Frame\Korea\bin\Debug\Korea.pdb
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week5\Korea_Frame\Korea_Frame\Korea\obj\Debug\Korea.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week5\Korea_Frame\Korea_Frame\Korea\obj\Debug\Korea.Form1.resources
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week5\Korea_Frame\Korea_Frame\Korea\obj\Debug\Korea.Properties.Resources.resources
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week5\Korea_Frame\Korea_Frame\Korea\obj\Debug\Korea.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week5\Korea_Frame\Korea_Frame\Korea\obj\Debug\Korea.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week5\Korea_Frame\Korea_Frame\Korea\obj\Debug\Korea.exe
+C:\Users\COM\Desktop\PC_Base_Control_Programming\week5\Korea_Frame\Korea_Frame\Korea\obj\Debug\Korea.pdb
