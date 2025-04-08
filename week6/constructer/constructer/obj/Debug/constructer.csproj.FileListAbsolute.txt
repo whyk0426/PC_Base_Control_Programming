@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\constructer\constructer\bin\Debug\constructer.exe.config
+C:\Users\COM\Desktop\constructer\constructer\bin\Debug\constructer.exe
+C:\Users\COM\Desktop\constructer\constructer\bin\Debug\constructer.pdb
+C:\Users\COM\Desktop\constructer\constructer\obj\Debug\constructer.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\constructer\constructer\obj\Debug\constructer.Form1.resources
+C:\Users\COM\Desktop\constructer\constructer\obj\Debug\constructer.Properties.Resources.resources
+C:\Users\COM\Desktop\constructer\constructer\obj\Debug\constructer.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\constructer\constructer\obj\Debug\constructer.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\constructer\constructer\obj\Debug\constructer.exe
+C:\Users\COM\Desktop\constructer\constructer\obj\Debug\constructer.pdb
