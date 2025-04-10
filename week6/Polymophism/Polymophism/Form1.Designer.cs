@@ -35,6 +35,8 @@
             this.lblNCir = new System.Windows.Forms.Label();
             this.lblNDia = new System.Windows.Forms.Label();
             this.lblNTotal = new System.Windows.Forms.Label();
+            this.lblNRec = new System.Windows.Forms.Label();
+            this.lblNtri = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.picDraw)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,7 +71,7 @@
             // 
             // btnErase
             // 
-            this.btnErase.Location = new System.Drawing.Point(518, 223);
+            this.btnErase.Location = new System.Drawing.Point(518, 261);
             this.btnErase.Name = "btnErase";
             this.btnErase.Size = new System.Drawing.Size(97, 42);
             this.btnErase.TabIndex = 3;
@@ -98,17 +100,37 @@
             // lblNTotal
             // 
             this.lblNTotal.AutoSize = true;
-            this.lblNTotal.Location = new System.Drawing.Point(518, 181);
+            this.lblNTotal.Location = new System.Drawing.Point(518, 232);
             this.lblNTotal.Name = "lblNTotal";
             this.lblNTotal.Size = new System.Drawing.Size(38, 12);
             this.lblNTotal.TabIndex = 6;
             this.lblNTotal.Text = "label3";
+            // 
+            // lblNRec
+            // 
+            this.lblNRec.AutoSize = true;
+            this.lblNRec.Location = new System.Drawing.Point(518, 180);
+            this.lblNRec.Name = "lblNRec";
+            this.lblNRec.Size = new System.Drawing.Size(38, 12);
+            this.lblNRec.TabIndex = 7;
+            this.lblNRec.Text = "label3";
+            // 
+            // lblNtri
+            // 
+            this.lblNtri.AutoSize = true;
+            this.lblNtri.Location = new System.Drawing.Point(518, 207);
+            this.lblNtri.Name = "lblNtri";
+            this.lblNtri.Size = new System.Drawing.Size(38, 12);
+            this.lblNtri.TabIndex = 8;
+            this.lblNtri.Text = "label3";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(627, 525);
+            this.Controls.Add(this.lblNtri);
+            this.Controls.Add(this.lblNRec);
             this.Controls.Add(this.lblNTotal);
             this.Controls.Add(this.lblNDia);
             this.Controls.Add(this.lblNCir);
@@ -133,6 +155,8 @@
         private System.Windows.Forms.Label lblNCir;
         private System.Windows.Forms.Label lblNDia;
         private System.Windows.Forms.Label lblNTotal;
+        private System.Windows.Forms.Label lblNRec;
+        private System.Windows.Forms.Label lblNtri;
     }
 }
 

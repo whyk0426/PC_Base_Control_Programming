@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\Polymophism\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FBC91E-F3B3-42D9-8B9F-343BFE7AED70}|Polymophism\\Polymophism.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\Polymophism\\polymophism\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FBC91E-F3B3-42D9-8B9F-343BFE7AED70}|Polymophism\\Polymophism.csproj|solutionrelative:polymophism\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FBC91E-F3B3-42D9-8B9F-343BFE7AED70}|Polymophism\\Polymophism.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\Polymophism\\polymophism\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9FBC91E-F3B3-42D9-8B9F-343BFE7AED70}|Polymophism\\Polymophism.csproj|solutionrelative:polymophism\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9FBC91E-F3B3-42D9-8B9F-343BFE7AED70}|Polymophism\\Polymophism.csproj|c:\\users\\kkyys\\desktop\\pc_base_control_programming\\week6\\polymophism\\polymophism\\geom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9FBC91E-F3B3-42D9-8B9F-343BFE7AED70}|Polymophism\\Polymophism.csproj|solutionrelative:polymophism\\geom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\Polymophism\\Polymophism\\Form1.cs",
+              "RelativeDocumentMoniker": "Polymophism\\Form1.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\Polymophism\\Polymophism\\Form1.cs",
+              "RelativeToolTip": "Polymophism\\Form1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T01:02:15.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Geom.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\Polymophism\\Polymophism\\Geom.cs",
+              "RelativeDocumentMoniker": "Polymophism\\Geom.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\Polymophism\\Polymophism\\Geom.cs",
+              "RelativeToolTip": "Polymophism\\Geom.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAUwGcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T01:02:15.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\Polymophism\\Polymophism\\Form1.cs",
+              "RelativeDocumentMoniker": "Polymophism\\Form1.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\Polymophism\\Polymophism\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Polymophism\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T01:02:15.485Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

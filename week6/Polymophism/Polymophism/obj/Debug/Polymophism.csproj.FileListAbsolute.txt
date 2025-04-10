@@ -8,3 +8,13 @@ C:\Users\COM\Desktop\Polymophism\Polymophism\obj\Debug\Polymophism.csproj.Genera
 C:\Users\COM\Desktop\Polymophism\Polymophism\obj\Debug\Polymophism.csproj.CoreCompileInputs.cache
 C:\Users\COM\Desktop\Polymophism\Polymophism\obj\Debug\Polymophism.exe
 C:\Users\COM\Desktop\Polymophism\Polymophism\obj\Debug\Polymophism.pdb
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week6\Polymophism\Polymophism\bin\Debug\Polymophism.exe.config
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week6\Polymophism\Polymophism\bin\Debug\Polymophism.exe
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week6\Polymophism\Polymophism\bin\Debug\Polymophism.pdb
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week6\Polymophism\Polymophism\obj\Debug\Polymophism.csproj.AssemblyReference.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week6\Polymophism\Polymophism\obj\Debug\Polymophism.Form1.resources
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week6\Polymophism\Polymophism\obj\Debug\Polymophism.Properties.Resources.resources
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week6\Polymophism\Polymophism\obj\Debug\Polymophism.csproj.GenerateResource.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week6\Polymophism\Polymophism\obj\Debug\Polymophism.csproj.CoreCompileInputs.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week6\Polymophism\Polymophism\obj\Debug\Polymophism.exe
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week6\Polymophism\Polymophism\obj\Debug\Polymophism.pdb

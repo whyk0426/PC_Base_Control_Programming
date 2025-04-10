@@ -85,24 +85,28 @@ class Rectangular : Geom
 
 class Triangle : Geom
 {
-    private int xcen, ycen, xsize, ysize;
+    private int xcen, ycen, radius;
+    private double rad1, rad2, rad3;
     public static int num;
 
-    public Triangle(int x, int y, int xs, int ys, Color col)
+    public Triangle(int x, int y, int r, int a1, int a2, int a3, Color col)
     {
+        this.rad1 = a1 * Math.PI / 180;
+        this.rad2 = a2 * Math.PI / 180;
+        this.rad3 = a3 * Math.PI / 180;
         this.col = col;
         this.xcen = x;
         this.ycen = y;
-        this.xsize = xs;
-        this.ysize = ys;
+        this.radius = r;
+        
         num++;
     }
     public override void Draw(PictureBox pic)
     {
         Graphics grp = pic.CreateGraphics();
-        grp.DrawLine(new Pen(col), xcen - xsize / 2, ycen - ysize / 2, xcen + xsize / 2, ycen - ysize / 2);
-        grp.DrawLine(new Pen(col), xcen + xsize / 2, ycen - ysize / 2, xcen + xsize / 2, ycen + ysize / 2);
-        grp.DrawLine(new Pen(col), xcen + xsize / 2, ycen + ysize / 2, xcen - xsize / 2, ycen + ysize / 2);
-        grp.DrawLine(new Pen(col), xcen - xsize / 2, ycen + ysize / 2, xcen - xsize / 2, ycen - ysize / 2);
+        grp.DrawLine(new Pen(col), xcen + Convert.ToInt32(radius * Math.Cos(rad1)), ycen + Convert.ToInt32(radius * Math.Sin(rad1)), xcen + Convert.ToInt32(radius * Math.Cos(rad2)), ycen + Convert.ToInt32(radius * Math.Sin(rad2)));
+        grp.DrawLine(new Pen(col), xcen + Convert.ToInt32(radius * Math.Cos(rad2)), ycen + Convert.ToInt32(radius * Math.Sin(rad2)), xcen + Convert.ToInt32(radius * Math.Cos(rad3)), ycen + Convert.ToInt32(radius * Math.Sin(rad3)));
+        grp.DrawLine(new Pen(col), xcen + Convert.ToInt32(radius * Math.Cos(rad3)), ycen + Convert.ToInt32(radius * Math.Sin(rad3)), xcen + Convert.ToInt32(radius * Math.Cos(rad1)), ycen + Convert.ToInt32(radius * Math.Sin(rad1)));
+
     }
 }
