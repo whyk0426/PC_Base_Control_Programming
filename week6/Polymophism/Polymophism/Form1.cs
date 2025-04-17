@@ -25,7 +25,7 @@ namespace Polymophism
         //=======================================
         private void RedrawAll()
         {
-            Graphics grp = picDraw.CreateGraphics();
+            Graphics grp = picDraw.CreateGraphics(); 
             grp.Clear(Color.White);
             for (int i = 0; i < geoms.Count; i++)
             {

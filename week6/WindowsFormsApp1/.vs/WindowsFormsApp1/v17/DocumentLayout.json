@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\WindowsFormsApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{143AB11F-66A5-492C-B0DB-EAEC92FE0571}|WindowsFormsApp1\\WindowsFormsApp1.csproj|c:\\users\\kkyys\\desktop\\pc_base_control_programming\\week6\\windowsformsapp1\\windowsformsapp1\\tmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143AB11F-66A5-492C-B0DB-EAEC92FE0571}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\tmath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143AB11F-66A5-492C-B0DB-EAEC92FE0571}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\WindowsFormsApp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143AB11F-66A5-492C-B0DB-EAEC92FE0571}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143AB11F-66A5-492C-B0DB-EAEC92FE0571}|WindowsFormsApp1\\WindowsFormsApp1.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\WindowsFormsApp1\\windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{143AB11F-66A5-492C-B0DB-EAEC92FE0571}|WindowsFormsApp1\\WindowsFormsApp1.csproj|solutionrelative:windowsformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Form1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-17T05:15:50.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tmath.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\WindowsFormsApp1\\WindowsFormsApp1\\Tmath.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Tmath.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\WindowsFormsApp1\\WindowsFormsApp1\\Tmath.cs",
+              "RelativeToolTip": "WindowsFormsApp1\\Tmath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-17T05:15:50.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week6\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs",
+              "RelativeDocumentMoniker": "WindowsFormsApp1\\Form1.cs",
+              "ToolTip": "C:\\Users\\COM\\Desktop\\PC_Base_Control_Programming\\week6\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\COM\\Desktop\\PC_Base_Control_Programming\\week6\\WindowsFormsApp1\\WindowsFormsApp1\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-04-17T05:15:50.688Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

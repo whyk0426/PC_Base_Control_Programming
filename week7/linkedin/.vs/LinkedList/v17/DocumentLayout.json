@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week7\\\uC0C8 \uD3F4\uB354\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBE9261-7AAE-45CF-84A5-0C504394EA26}|LinkedList\\LinkedList.csproj|c:\\users\\kkyys\\desktop\\pc_base_control_programming\\week7\\\uC0C8 \uD3F4\uB354\\linkedlist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBE9261-7AAE-45CF-84A5-0C504394EA26}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBE9261-7AAE-45CF-84A5-0C504394EA26}|LinkedList\\LinkedList.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week7\\\uC0C8 \uD3F4\uB354\\linkedlist\\simplelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBE9261-7AAE-45CF-84A5-0C504394EA26}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\simplelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBE9261-7AAE-45CF-84A5-0C504394EA26}|LinkedList\\LinkedList.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week7\\\uC0C8 \uD3F4\uB354\\linkedlist\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CBE9261-7AAE-45CF-84A5-0C504394EA26}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CBE9261-7AAE-45CF-84A5-0C504394EA26}|LinkedList\\LinkedList.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week7\\\uC0C8 \uD3F4\uB354\\linkedlist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3CBE9261-7AAE-45CF-84A5-0C504394EA26}|LinkedList\\LinkedList.csproj|solutionrelative:linkedlist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SImpleList.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week7\\\uC0C8 \uD3F4\uB354\\LinkedList\\SImpleList.cs",
+              "RelativeDocumentMoniker": "LinkedList\\SImpleList.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week7\\\uC0C8 \uD3F4\uB354\\LinkedList\\SImpleList.cs",
+              "RelativeToolTip": "LinkedList\\SImpleList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T07:44:45.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week7\\\uC0C8 \uD3F4\uB354\\LinkedList\\Form1.cs",
+              "RelativeDocumentMoniker": "LinkedList\\Form1.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week7\\\uC0C8 \uD3F4\uB354\\LinkedList\\Form1.cs",
+              "RelativeToolTip": "LinkedList\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T02:36:10.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week7\\\uC0C8 \uD3F4\uB354\\LinkedList\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "LinkedList\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week7\\\uC0C8 \uD3F4\uB354\\LinkedList\\Form1.Designer.cs",
+              "RelativeToolTip": "LinkedList\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T04:47:56.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week7\\\uC0C8 \uD3F4\uB354\\LinkedList\\Form1.cs",
+              "RelativeDocumentMoniker": "LinkedList\\Form1.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week7\\\uC0C8 \uD3F4\uB354\\LinkedList\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "LinkedList\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T02:01:50.013Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

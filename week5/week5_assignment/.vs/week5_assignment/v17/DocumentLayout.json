@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kkyys\\Desktop\\week5_assignment\\",
+  "WorkspaceRootPath": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week5\\week5_assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BF548A7-B500-4ADA-89F0-4F980F01AD0D}|week5_assignment\\week5_assignment.csproj|c:\\users\\kkyys\\desktop\\week5_assignment\\week5_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1BF548A7-B500-4ADA-89F0-4F980F01AD0D}|week5_assignment\\week5_assignment.csproj|c:\\users\\kkyys\\desktop\\pc_base_control_programming\\week5\\week5_assignment\\week5_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1BF548A7-B500-4ADA-89F0-4F980F01AD0D}|week5_assignment\\week5_assignment.csproj|solutionrelative:week5_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1BF548A7-B500-4ADA-89F0-4F980F01AD0D}|week5_assignment\\week5_assignment.csproj|C:\\Users\\kkyys\\Desktop\\week5_assignment\\week5_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1BF548A7-B500-4ADA-89F0-4F980F01AD0D}|week5_assignment\\week5_assignment.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week5\\week5_assignment\\week5_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1BF548A7-B500-4ADA-89F0-4F980F01AD0D}|week5_assignment\\week5_assignment.csproj|solutionrelative:week5_assignment\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\week5_assignment\\week5_assignment\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week5\\week5_assignment\\week5_assignment\\Form1.cs",
               "RelativeDocumentMoniker": "week5_assignment\\Form1.cs",
-              "ToolTip": "C:\\Users\\kkyys\\Desktop\\week5_assignment\\week5_assignment\\Form1.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week5\\week5_assignment\\week5_assignment\\Form1.cs",
               "RelativeToolTip": "week5_assignment\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T10:32:11.72Z",
               "EditorCaption": ""
@@ -41,10 +41,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\week5_assignment\\week5_assignment\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week5\\week5_assignment\\week5_assignment\\Form1.cs",
               "RelativeDocumentMoniker": "week5_assignment\\Form1.cs",
               "ToolTip": "C:\\Users\\kkyys\\Desktop\\week5_assignment\\week5_assignment\\Form1.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "week5_assignment\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\..\\..\\week5_assignment\\week5_assignment\\Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T10:32:10.798Z"
             }
