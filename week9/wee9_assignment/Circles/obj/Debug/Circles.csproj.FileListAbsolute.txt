@@ -1,0 +1,10 @@
+C:\Users\COM\Desktop\11_CP_Circles_폼만\Circles\bin\Debug\Circles.exe.config
+C:\Users\COM\Desktop\11_CP_Circles_폼만\Circles\bin\Debug\Circles.exe
+C:\Users\COM\Desktop\11_CP_Circles_폼만\Circles\bin\Debug\Circles.pdb
+C:\Users\COM\Desktop\11_CP_Circles_폼만\Circles\obj\Debug\Circles.csproj.AssemblyReference.cache
+C:\Users\COM\Desktop\11_CP_Circles_폼만\Circles\obj\Debug\Circles.Form1.resources
+C:\Users\COM\Desktop\11_CP_Circles_폼만\Circles\obj\Debug\Circles.Properties.Resources.resources
+C:\Users\COM\Desktop\11_CP_Circles_폼만\Circles\obj\Debug\Circles.csproj.GenerateResource.cache
+C:\Users\COM\Desktop\11_CP_Circles_폼만\Circles\obj\Debug\Circles.csproj.CoreCompileInputs.cache
+C:\Users\COM\Desktop\11_CP_Circles_폼만\Circles\obj\Debug\Circles.exe
+C:\Users\COM\Desktop\11_CP_Circles_폼만\Circles\obj\Debug\Circles.pdb
