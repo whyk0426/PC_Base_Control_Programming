@@ -67,13 +67,16 @@
             this.timAskBits = new System.Windows.Forms.Timer(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.RedBar = new System.Windows.Forms.HScrollBar();
-            this.GreenBar = new System.Windows.Forms.HScrollBar();
-            this.BlueBar = new System.Windows.Forms.HScrollBar();
+            this.hScrollBar1 = new System.Windows.Forms.HScrollBar();
+            this.hScrollBar2 = new System.Windows.Forms.HScrollBar();
+            this.hScrollBar3 = new System.Windows.Forms.HScrollBar();
+            this.RedLabel = new System.Windows.Forms.Label();
+            this.GreenLabel = new System.Windows.Forms.Label();
+            this.BlueLabel = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLamp07)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLamp06)).BeginInit();
@@ -84,6 +87,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLamp01)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLamp00)).BeginInit();
             this.pnlDraw.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // lblCommNG
@@ -444,14 +448,6 @@
             this.textBox1.Size = new System.Drawing.Size(539, 84);
             this.textBox1.TabIndex = 108;
             // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(22, 604);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(68, 67);
-            this.textBox2.TabIndex = 109;
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -485,42 +481,83 @@
             this.label12.TabIndex = 112;
             this.label12.Text = "Blue";
             // 
-            // RedBar
+            // hScrollBar1
             // 
-            this.RedBar.Location = new System.Drawing.Point(161, 604);
-            this.RedBar.Maximum = 255;
-            this.RedBar.Name = "RedBar";
-            this.RedBar.Size = new System.Drawing.Size(326, 15);
-            this.RedBar.TabIndex = 113;
+            this.hScrollBar1.Location = new System.Drawing.Point(146, 602);
+            this.hScrollBar1.Maximum = 255;
+            this.hScrollBar1.Name = "hScrollBar1";
+            this.hScrollBar1.Size = new System.Drawing.Size(305, 19);
+            this.hScrollBar1.TabIndex = 113;
+            this.hScrollBar1.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hScrollBar1_Scroll);
             // 
-            // GreenBar
+            // hScrollBar2
             // 
-            this.GreenBar.Location = new System.Drawing.Point(161, 631);
-            this.GreenBar.Maximum = 255;
-            this.GreenBar.Name = "GreenBar";
-            this.GreenBar.Size = new System.Drawing.Size(326, 15);
-            this.GreenBar.TabIndex = 114;
+            this.hScrollBar2.Location = new System.Drawing.Point(146, 628);
+            this.hScrollBar2.Maximum = 255;
+            this.hScrollBar2.Name = "hScrollBar2";
+            this.hScrollBar2.Size = new System.Drawing.Size(305, 19);
+            this.hScrollBar2.TabIndex = 114;
+            this.hScrollBar2.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hScrollBar2_Scroll);
             // 
-            // BlueBar
+            // hScrollBar3
             // 
-            this.BlueBar.Location = new System.Drawing.Point(161, 656);
-            this.BlueBar.Maximum = 255;
-            this.BlueBar.Name = "BlueBar";
-            this.BlueBar.Size = new System.Drawing.Size(326, 15);
-            this.BlueBar.TabIndex = 115;
+            this.hScrollBar3.Location = new System.Drawing.Point(146, 655);
+            this.hScrollBar3.Maximum = 255;
+            this.hScrollBar3.Name = "hScrollBar3";
+            this.hScrollBar3.Size = new System.Drawing.Size(305, 19);
+            this.hScrollBar3.TabIndex = 115;
+            this.hScrollBar3.Scroll += new System.Windows.Forms.ScrollEventHandler(this.hScrollBar3_Scroll);
+            // 
+            // RedLabel
+            // 
+            this.RedLabel.AutoSize = true;
+            this.RedLabel.Location = new System.Drawing.Point(467, 608);
+            this.RedLabel.Name = "RedLabel";
+            this.RedLabel.Size = new System.Drawing.Size(11, 12);
+            this.RedLabel.TabIndex = 116;
+            this.RedLabel.Text = "0";
+            // 
+            // GreenLabel
+            // 
+            this.GreenLabel.AutoSize = true;
+            this.GreenLabel.Location = new System.Drawing.Point(467, 632);
+            this.GreenLabel.Name = "GreenLabel";
+            this.GreenLabel.Size = new System.Drawing.Size(11, 12);
+            this.GreenLabel.TabIndex = 117;
+            this.GreenLabel.Text = "0";
+            // 
+            // BlueLabel
+            // 
+            this.BlueLabel.AutoSize = true;
+            this.BlueLabel.Location = new System.Drawing.Point(467, 659);
+            this.BlueLabel.Name = "BlueLabel";
+            this.BlueLabel.Size = new System.Drawing.Size(11, 12);
+            this.BlueLabel.TabIndex = 118;
+            this.BlueLabel.Text = "0";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(23, 607);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(65, 65);
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(599, 692);
-            this.Controls.Add(this.BlueBar);
-            this.Controls.Add(this.GreenBar);
-            this.Controls.Add(this.RedBar);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.BlueLabel);
+            this.Controls.Add(this.GreenLabel);
+            this.Controls.Add(this.RedLabel);
+            this.Controls.Add(this.hScrollBar3);
+            this.Controls.Add(this.hScrollBar2);
+            this.Controls.Add(this.hScrollBar1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.lblCommNG);
@@ -556,6 +593,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picLamp00)).EndInit();
             this.pnlDraw.ResumeLayout(false);
             this.pnlDraw.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -601,13 +639,16 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.HScrollBar RedBar;
-        private System.Windows.Forms.HScrollBar GreenBar;
-        private System.Windows.Forms.HScrollBar BlueBar;
         internal System.Windows.Forms.Label label12;
+        private System.Windows.Forms.HScrollBar hScrollBar1;
+        private System.Windows.Forms.HScrollBar hScrollBar2;
+        private System.Windows.Forms.HScrollBar hScrollBar3;
+        private System.Windows.Forms.Label RedLabel;
+        private System.Windows.Forms.Label GreenLabel;
+        private System.Windows.Forms.Label BlueLabel;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -167,5 +167,23 @@ namespace tClient
         {
             btnReadBits.PerformClick();
         }
+
+        private void hScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+            RedLabel.Text = Convert.ToString(hScrollBar1.Value);
+            pictureBox1.BackColor = Color.FromArgb(hScrollBar1.Value, hScrollBar2.Value, hScrollBar3.Value);
+        }
+
+        private void hScrollBar2_Scroll(object sender, ScrollEventArgs e)
+        {
+            GreenLabel.Text = Convert.ToString(hScrollBar2.Value);
+            pictureBox1.BackColor = Color.FromArgb(hScrollBar1.Value, hScrollBar2.Value, hScrollBar3.Value);
+        }
+
+        private void hScrollBar3_Scroll(object sender, ScrollEventArgs e)
+        {
+            BlueLabel.Text = Convert.ToString(hScrollBar3.Value);
+            pictureBox1.BackColor = Color.FromArgb(hScrollBar1.Value, hScrollBar2.Value, hScrollBar3.Value);
+        }
     }
 }

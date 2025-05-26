@@ -38,3 +38,13 @@ C:\Users\COM\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\obj\Debu
 C:\Users\COM\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\obj\Debug\tClient.csproj.CoreCompileInputs.cache
 C:\Users\COM\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\obj\Debug\tClient.exe
 C:\Users\COM\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\obj\Debug\tClient.pdb
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\bin\Debug\tClient.exe.config
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\bin\Debug\tClient.exe
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\bin\Debug\tClient.pdb
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\obj\Debug\tClient.csproj.AssemblyReference.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\obj\Debug\tClient.Form1.resources
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\obj\Debug\tClient.Properties.Resources.resources
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\obj\Debug\tClient.csproj.GenerateResource.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\obj\Debug\tClient.csproj.CoreCompileInputs.cache
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\obj\Debug\tClient.exe
+C:\Users\kkyys\Desktop\PC_Base_Control_Programming\week12\tClient\tClient\obj\Debug\tClient.pdb
