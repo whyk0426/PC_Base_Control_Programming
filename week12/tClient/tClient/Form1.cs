@@ -16,6 +16,9 @@ namespace tClient
         private TClient clientChat; //채팅용
         private TClient clientCopy; //원위치복사용
         private TClient clientComm; //비트통신용
+        private TClient clientColor;
+
+        private string rbuffcol = "";
         public Form1()
         {
             InitializeComponent();
@@ -47,6 +50,7 @@ namespace tClient
             if (clientChat != null) clientChat.ClientClose();
             if (clientCopy != null) clientCopy.ClientClose();
             if (clientComm != null) clientComm.ClientClose();
+            if (clientColor != null) clientColor.ClientClose();
         }
 
         private void timConnStatus_Tick(object sender, EventArgs e)
@@ -71,6 +75,13 @@ namespace tClient
                 csConnStatus conn = clientComm.ClientStatus();
                 lblConnComm.Text = "Comm : " + conn.ToString();
             }
+            
+            if (clientColor == null) { lblConnColor.Text = "Color : " + "NULL"; }
+            else
+            {
+                csConnStatus conn = clientColor.ClientStatus();
+                lblConnColor.Text = "Color : " + conn.ToString();
+            }
         }
 
         private void btnConnect_Click(object sender, EventArgs e)
@@ -86,8 +97,32 @@ namespace tClient
 
             if (clientComm == null) clientComm = new TClient();
             clientComm.ClientBeginConnect(serverIP, 5002, clientIP);   // 1024~65535 추천
-        }
 
+            if (clientColor == null) clientColor = new TClient(AskingColorDataArrived);
+            clientColor.ClientBeginConnect(serverIP, 5003, clientIP);
+        }
+        private void AskingColorDataArrived()
+        {
+            while (true)
+            {
+                rbuffcol += clientColor.GetRcvMsg();
+                int idx1 = rbuffcol.IndexOf(TSocket.sSTX());
+                if (idx1 < 0) break;
+                int idx2 = rbuffcol.IndexOf(TSocket.sETX(), idx1);
+
+                if (idx2 - idx1 == 3)
+                {
+                    string stnet = rbuffcol.Substring(idx1 + 1, 2);
+                    if (stnet == "RK")
+                    {
+                        string rgb = TSocket.sACK() + "RK" + Convert.ToString(hScrollBar1.Value) + "," + Convert.ToString(hScrollBar2.Value) + "," + Convert.ToString(hScrollBar3.Value) + TSocket.sETX();
+                        clientColor.ClientSend(rgb);
+                    }
+                    // 처리한 곳까지 잘라내기
+                    rbuffcol = rbuffcol.Substring(idx2 + 1);
+                }
+            }
+        }
         private void btnSend_Click(object sender, EventArgs e)
         {
             if (clientChat == null) return;

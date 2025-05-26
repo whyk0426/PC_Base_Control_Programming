@@ -77,6 +77,7 @@
             this.GreenLabel = new System.Windows.Forms.Label();
             this.BlueLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblConnColor = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picLamp07)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.picLamp06)).BeginInit();
@@ -111,7 +112,7 @@
             // lblConnComm
             // 
             this.lblConnComm.AutoSize = true;
-            this.lblConnComm.Location = new System.Drawing.Point(431, 171);
+            this.lblConnComm.Location = new System.Drawing.Point(431, 161);
             this.lblConnComm.Name = "lblConnComm";
             this.lblConnComm.Size = new System.Drawing.Size(86, 12);
             this.lblConnComm.TabIndex = 104;
@@ -325,7 +326,7 @@
             // lblConnChat
             // 
             this.lblConnChat.AutoSize = true;
-            this.lblConnChat.Location = new System.Drawing.Point(431, 139);
+            this.lblConnChat.Location = new System.Drawing.Point(431, 129);
             this.lblConnChat.Name = "lblConnChat";
             this.lblConnChat.Size = new System.Drawing.Size(74, 12);
             this.lblConnChat.TabIndex = 98;
@@ -389,7 +390,7 @@
             // lblConnCopy
             // 
             this.lblConnCopy.AutoSize = true;
-            this.lblConnCopy.Location = new System.Drawing.Point(431, 155);
+            this.lblConnCopy.Location = new System.Drawing.Point(431, 145);
             this.lblConnCopy.Name = "lblConnCopy";
             this.lblConnCopy.Size = new System.Drawing.Size(78, 12);
             this.lblConnCopy.TabIndex = 92;
@@ -543,11 +544,21 @@
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
+            // lblConnColor
+            // 
+            this.lblConnColor.AutoSize = true;
+            this.lblConnColor.Location = new System.Drawing.Point(432, 177);
+            this.lblConnColor.Name = "lblConnColor";
+            this.lblConnColor.Size = new System.Drawing.Size(78, 12);
+            this.lblConnColor.TabIndex = 119;
+            this.lblConnColor.Text = "lblConnColor";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(599, 692);
+            this.Controls.Add(this.lblConnColor);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.BlueLabel);
             this.Controls.Add(this.GreenLabel);
@@ -649,6 +660,7 @@
         private System.Windows.Forms.Label GreenLabel;
         private System.Windows.Forms.Label BlueLabel;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblConnColor;
     }
 }
 

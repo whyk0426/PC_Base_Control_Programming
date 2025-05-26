@@ -16,6 +16,7 @@ namespace tServer
         private TServer serverChat; //채팅용
         private TServer serverCopy; //원위치복사용
         private TServer serverComm; //비트통신용
+        private TServer serverColor;
 
         private string rbuffcir = "";   // 원위치송신메시지 저장버퍼
         private string rbuffbit = "";   // 비트정보 asking 메시지 저장버퍼
@@ -50,6 +51,7 @@ namespace tServer
             if (serverChat != null) serverChat.ServerClose();
             if (serverCopy != null) serverCopy.ServerClose();
             if (serverComm != null) serverComm.ServerClose();
+            if (serverColor != null) serverColor.ServerClose();
         }
 
         private void timConnStatus_Tick(object sender, EventArgs e)
@@ -74,6 +76,13 @@ namespace tServer
                 csConnStatus conn = serverComm.ServerStatus();
                 lblConnComm.Text = "Comm : " + conn.ToString();
             }
+
+            if (serverColor == null) { lblConnColor.Text = "Color : " + "NULL"; }
+            else
+            {
+                csConnStatus conn = serverColor.ServerStatus();
+                lblConnColor.Text = "Color : " + conn.ToString();
+            }
         }
 
         private void btnListen_Click(object sender, EventArgs e)
@@ -88,6 +97,9 @@ namespace tServer
 
             if (serverComm == null) serverComm = new TServer(AskingBitsDataArrived);
             serverComm.ServerStartListen(myIP, 5002);   // 1024~65535 추천
+
+            if (serverColor == null) serverColor = new TServer();
+            serverColor.ServerStartListen(myIP, 5003);   // 1024~65535 추천
         }
 
         private void btnSend_Click(object sender, EventArgs e)
@@ -170,6 +182,28 @@ namespace tServer
                     rbuffbit = rbuffbit.Substring(idx2 + 1);
                 }
             }
+        }
+
+        private void btnAskColor_Click(object sender, EventArgs e)
+        {
+            if (serverColor == null) return;
+            if (serverColor.ServerStatus() != csConnStatus.Connected) return;
+
+            bool success = TComm.AskDigitalInput(serverColor, out int red, out int green, out int blue);
+
+            if (success)
+            {
+                pictureBox1.BackColor = Color.FromArgb(red, green, blue);
+                label2.Text = Convert.ToString(red);
+                label3.Text = Convert.ToString(green);
+                label4.Text = Convert.ToString(blue);
+
+            }
+        }
+
+        private void timAskColor_Tick(object sender, EventArgs e)
+        {
+            btnAskColor.PerformClick();
         }
     }
 }
