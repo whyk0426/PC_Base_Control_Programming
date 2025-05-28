@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Drawing;
+using System.Drawing.Drawing2D;
+using System.Runtime.Remoting.Messaging;
 using System.Windows.Forms;
 using OpenCvSharp;
 using OpenCvSharp.Extensions;
@@ -149,35 +151,34 @@ namespace Labeling
             // Contour(윤곽선) 찾기
             OpenCvSharp.Point[][] contours;
             HierarchyIndex[] hierarchy;
-            Cv2.FindContours(matBin, out contours, out hierarchy, RetrievalModes.External, ContourApproximationModes.ApproxSimple);
+            Cv2.FindContours(matBin, out contours, out hierarchy, RetrievalModes.External, ContourApproximationModes.ApproxNone);
+
 
             // 윤곽선 그리기
-            {
-                // 엣지를 그릴 검은색 배경의 3채널 이미지 만들기
-                Mat edgeOutput = new Mat(matBin.Size(), MatType.CV_8UC3, Scalar.Black);
-                // 그리기
-                for (int i = 0; i < contours.Length; i++)
-                {
-                    Cv2.DrawContours(edgeOutput, contours, i, new Scalar(255, 255, 255), 1);
-                }
-                picResult.Image = edgeOutput.ToBitmap();
-            }
+            //{
+            //    // 엣지를 그릴 검은색 배경의 3채널 이미지 만들기
+            //    Mat edgeOutput = new Mat(matBin.Size(), MatType.CV_8UC3, Scalar.Black);
+            //    // 그리기
+            //    for (int i = 0; i < contours.Length; i++)
+            //    {
+            //        Cv2.DrawContours(edgeOutput, contours, i, new Scalar(255, 255, 255), 1);
+            //    }
+            //    picResult.Image = edgeOutput.ToBitmap();
+            //}
             // 혹은 아래와 같이 Graphics를 이용하여 그릴수도 있음
             // (자료구조를 파악할 수 있지만 느림)
             {
-                //Graphics grp = picResult.CreateGraphics();
-                //grp.Clear(Color.Black);
-                //for (int i = 0; i < contours.Length; i++)
-                //{
-                //    for (int j = 0; j < contours[i].Length - 1; j++)
-                //    {
-                //        //grp.DrawEllipse(new Pen(Color.White), contours[i][j].X, contours[i][j].Y, 1, 1);
-                //        grp.DrawLine(new Pen(Color.White), contours[i][j].X, contours[i][j].Y,
-                //                                           contours[i][j + 1].X, contours[i][j + 1].Y);
-                //    }
-                //    grp.DrawLine(new Pen(Color.White), contours[i][contours[i].Length - 1].X, contours[i][contours[i].Length - 1].Y,
-                //                                       contours[i][0].X, contours[i][0].Y);
-                //}
+                Graphics grp = picResult.CreateGraphics();
+                grp.Clear(Color.Black);
+                for (int i = 0; i < contours.Length; i++)
+                {
+                    for (int j = 0; j < contours[i].Length - 1; j++)
+                    {
+                        //grp.DrawEllipse(new Pen(Color.White), contours[i][j].X, contours[i][j].Y, 1, 1);
+                    }
+                    //grp.DrawLine(new Pen(Color.White), contours[i][contours[i].Length - 1].X, contours[i][contours[i].Length - 1].Y,
+                    //                                   contours[i][0].X, contours[i][0].Y);
+                }
             }
         }
 
@@ -200,19 +201,10 @@ namespace Labeling
             double dtime = Util.TimeInSeconds(stime);
 
             GetLabelMat(nLabels, labels, stats, centroids, out Mat colorMap,
-                        out int[] area, out double[] xcen, out double[] ycen);
+                        out int[] area, out double[] xcen, out double[] ycen, out double[][] distance);
             picResult.Image = colorMap.ToBitmap();
 
-            OpenCvSharp.Point[][] contours;
-            HierarchyIndex[] hierarchy;
-            Cv2.FindContours(matBin, out contours, out hierarchy, RetrievalModes.External, ContourApproximationModes.ApproxSimple);
-
-            // 윤곽선 그리기
-            double contour_lenth = 0.0;
-            for (int i = 0; i < contours.Length; i++)
-            {
-                double x_diff = contours[i].
-            }
+            
 
 
             // 결과 텍스트창에 표시
@@ -224,12 +216,19 @@ namespace Labeling
                                         "면적= " + Convert.ToString(area[i]).PadLeft(5) + "  " +
                                         "중심= " + string.Format("{0:0.00}", xcen[i]) + ", " +
                                                     string.Format("{0:0.00}", ycen[i]) + "\r\n";
+                txtLabelingResult.Text += Convert.ToString(i).PadLeft(2) + "  " +
+                                        "3" + "circle";
             }
+        }
+        private int ShapeOfContour(double[] distance)
+        {
+            
+            return 0;
         }
         private void GetLabelMat(int nLabels,
                          Mat labels, Mat stats, Mat centroids,
                          out Mat colorMap, out int[] area,
-                         out double[] xcen, out double[] ycen)
+                         out double[] xcen, out double[] ycen, out double[][] distance)
         {
             Random rnd = new Random();
 
@@ -291,6 +290,26 @@ namespace Labeling
                 Cv2.Line(colorMap, (int)cx, (int)cy - len, (int)cx, (int)cy + len, new Scalar(0, 255, 255));
                 Cv2.PutText(colorMap, i.ToString(), new OpenCvSharp.Point((int)cx + 5, (int)cy - 5),
                             HersheyFonts.HersheySimplex, 0.5, new Scalar(255, 255, 255), 1);
+            }
+            Bitmap bmp = picBin.Image as Bitmap;
+            Mat matBin = BitmapConverter.ToMat(bmp);
+
+            OpenCvSharp.Point[][] contours;
+            HierarchyIndex[] hierarchy;
+            Cv2.FindContours(matBin, out contours, out hierarchy, RetrievalModes.External, ContourApproximationModes.ApproxNone);
+
+            distance = new double[nLabels][];
+            {
+                for (int i = 0; i < contours.Length; i++)
+                {
+                    for (int j = 0; j < contours[i].Length - 1; j++)
+                    {
+                        double x_diff = xcen[i] - contours[i][j].X;
+                        double y_diff = ycen[i] - contours[i][j].Y;
+
+                        distance[i][j] = Math.Sqrt((x_diff * x_diff) + (y_diff * y_diff));
+                    }
+                }
             }
         }
     }
