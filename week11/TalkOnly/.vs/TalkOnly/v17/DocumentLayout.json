@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\TalkOnly\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6891BBE0-FB28-430B-84A4-5B505FBFCF73}|TalkOnly\\TalkOnly.csproj|c:\\users\\kkyys\\desktop\\pc_base_control_programming\\week11\\talkonly\\talkonly\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6891BBE0-FB28-430B-84A4-5B505FBFCF73}|TalkOnly\\TalkOnly.csproj|solutionrelative:talkonly\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6891BBE0-FB28-430B-84A4-5B505FBFCF73}|TalkOnly\\TalkOnly.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\TalkOnly\\talkonly\\sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6891BBE0-FB28-430B-84A4-5B505FBFCF73}|TalkOnly\\TalkOnly.csproj|solutionrelative:talkonly\\sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6891BBE0-FB28-430B-84A4-5B505FBFCF73}|TalkOnly\\TalkOnly.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\TalkOnly\\talkonly\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6891BBE0-FB28-430B-84A4-5B505FBFCF73}|TalkOnly\\TalkOnly.csproj|solutionrelative:talkonly\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\TalkOnly\\TalkOnly\\Form1.cs",
+              "RelativeDocumentMoniker": "TalkOnly\\Form1.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\TalkOnly\\TalkOnly\\Form1.cs",
+              "RelativeToolTip": "TalkOnly\\Form1.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAQwEgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:06:47.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SPort.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\TalkOnly\\TalkOnly\\SPort.cs",
+              "RelativeDocumentMoniker": "TalkOnly\\SPort.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\TalkOnly\\TalkOnly\\SPort.cs",
+              "RelativeToolTip": "TalkOnly\\SPort.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwFAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:06:47.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\TalkOnly\\TalkOnly\\Form1.cs",
+              "RelativeDocumentMoniker": "TalkOnly\\Form1.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\TalkOnly\\TalkOnly\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "TalkOnly\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:06:47.478Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

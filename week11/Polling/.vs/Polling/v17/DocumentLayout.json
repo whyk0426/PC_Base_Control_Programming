@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE02E1D-D0B6-4FB8-AADE-B0EECBDC3CDA}|Polling\\Polling.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\polling\\tcomm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE02E1D-D0B6-4FB8-AADE-B0EECBDC3CDA}|Polling\\Polling.csproj|solutionrelative:polling\\tcomm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE02E1D-D0B6-4FB8-AADE-B0EECBDC3CDA}|Polling\\Polling.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\polling\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE02E1D-D0B6-4FB8-AADE-B0EECBDC3CDA}|Polling\\Polling.csproj|solutionrelative:polling\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE02E1D-D0B6-4FB8-AADE-B0EECBDC3CDA}|Polling\\Polling.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\polling\\sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE02E1D-D0B6-4FB8-AADE-B0EECBDC3CDA}|Polling\\Polling.csproj|solutionrelative:polling\\sport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE02E1D-D0B6-4FB8-AADE-B0EECBDC3CDA}|Polling\\Polling.csproj|c:\\users\\kkyys\\desktop\\pc_base_control_programming\\week11\\polling\\polling\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5EE02E1D-D0B6-4FB8-AADE-B0EECBDC3CDA}|Polling\\Polling.csproj|solutionrelative:polling\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5EE02E1D-D0B6-4FB8-AADE-B0EECBDC3CDA}|Polling\\Polling.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\polling\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5EE02E1D-D0B6-4FB8-AADE-B0EECBDC3CDA}|Polling\\Polling.csproj|solutionrelative:polling\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\Polling\\Form1.cs",
+              "RelativeDocumentMoniker": "Polling\\Form1.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\Polling\\Form1.cs",
+              "RelativeToolTip": "Polling\\Form1.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAcwHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:15:29.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TComm.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\Polling\\TComm.cs",
+              "RelativeDocumentMoniker": "Polling\\TComm.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\Polling\\TComm.cs",
+              "RelativeToolTip": "Polling\\TComm.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAIwNAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:15:29.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Util.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\Polling\\Util.cs",
+              "RelativeDocumentMoniker": "Polling\\Util.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\Polling\\Util.cs",
+              "RelativeToolTip": "Polling\\Util.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:15:29.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SPort.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\Polling\\SPort.cs",
+              "RelativeDocumentMoniker": "Polling\\SPort.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\Polling\\SPort.cs",
+              "RelativeToolTip": "Polling\\SPort.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAuwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T05:15:29.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\Polling\\Form1.cs",
+              "RelativeDocumentMoniker": "Polling\\Form1.cs",
+              "ToolTip": "C:\\Users\\COM\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\Polling\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\COM\\Desktop\\PC_Base_Control_Programming\\week11\\Polling\\Polling\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2025-06-10T05:15:29.526Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\Week3\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\",
+  "WorkspaceRootPath": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\Week03\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D9C3F69-1379-4764-83CA-BBAAF0EF26E6}|\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30.csproj|c:\\users\\kkyys\\desktop\\pc_base_control_programming\\week3\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D9C3F69-1379-4764-83CA-BBAAF0EF26E6}|\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30.csproj|c:\\users\\kkyys\\desktop\\pc_base_control_programming\\week03\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D9C3F69-1379-4764-83CA-BBAAF0EF26E6}|\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30.csproj|solutionrelative:\uBE44\uD2B8\uACC4\uC0B0\uAE30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D9C3F69-1379-4764-83CA-BBAAF0EF26E6}|\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\Week3\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1D9C3F69-1379-4764-83CA-BBAAF0EF26E6}|\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\Week03\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1D9C3F69-1379-4764-83CA-BBAAF0EF26E6}|\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30.csproj|solutionrelative:\uBE44\uD2B8\uACC4\uC0B0\uAE30\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -18,21 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\Week3\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\Week03\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\Form1.cs",
               "RelativeDocumentMoniker": "\uBE44\uD2B8\uACC4\uC0B0\uAE30\\Form1.cs",
-              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\Week3\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\Form1.cs",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\Week03\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\Form1.cs",
               "RelativeToolTip": "\uBE44\uD2B8\uACC4\uC0B0\uAE30\\Form1.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAIA5wDsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAGkAAAAAAAAAAADwv2gAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T11:34:04.892Z",
               "EditorCaption": ""
@@ -41,9 +37,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\Week3\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\Week03\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\Form1.cs",
               "RelativeDocumentMoniker": "\uBE44\uD2B8\uACC4\uC0B0\uAE30\\Form1.cs",
-              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\Week3\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\Form1.cs [\uB514\uC790\uC778]",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\Week03\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\\uBE44\uD2B8\uACC4\uC0B0\uAE30\\Form1.cs [\uB514\uC790\uC778]",
               "RelativeToolTip": "\uBE44\uD2B8\uACC4\uC0B0\uAE30\\Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-19T11:34:05.051Z"

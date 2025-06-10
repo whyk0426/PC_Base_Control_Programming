@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|c:\\users\\kkyys\\desktop\\pc_base_control_programming\\week12\\tserver\\tserver\\tcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\tcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tserver\\tcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\tcp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|c:\\users\\kkyys\\desktop\\pc_base_control_programming\\week12\\tserver\\tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tserver\\tcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\tcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|c:\\users\\kkyys\\desktop\\pc_base_control_programming\\week12\\tserver\\tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|solutionrelative:tserver\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D7B4D90-2F6D-4FA4-82E6-F6BBD87AB48A}|tServer\\tServer.csproj|C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tserver\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TColor.cs",
               "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tServer\\TColor.cs",
               "RelativeDocumentMoniker": "tServer\\TColor.cs",
               "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tServer\\TColor.cs",
               "RelativeToolTip": "tServer\\TColor.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAADwvzQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T16:11:15.323Z",
               "EditorCaption": ""
@@ -55,43 +55,42 @@
               "RelativeToolTip": "tServer\\Util.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T15:26:56.218Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T15:26:56.218Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TCP.cs",
               "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tServer\\TCP.cs",
               "RelativeDocumentMoniker": "tServer\\TCP.cs",
               "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tServer\\TCP.cs",
               "RelativeToolTip": "tServer\\TCP.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAiwDYAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAACIBAAAAAAAAAAAkwMAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T15:26:55.3Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tServer\\Form1.cs",
               "RelativeDocumentMoniker": "tServer\\Form1.cs",
-              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tServer\\Form1.cs*",
-              "RelativeToolTip": "tServer\\Form1.cs*",
-              "ViewState": "AgIAALQAAAAAAAAAAAAUwNEAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tServer\\Form1.cs",
+              "RelativeToolTip": "tServer\\Form1.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAmwLwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T03:05:12.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [\uB514\uC790\uC778]",
               "DocumentMoniker": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tServer\\Form1.cs",
               "RelativeDocumentMoniker": "tServer\\Form1.cs",
-              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tServer\\Form1.cs [\uB514\uC790\uC778]*",
-              "RelativeToolTip": "tServer\\Form1.cs [\uB514\uC790\uC778]*",
+              "ToolTip": "C:\\Users\\kkyys\\Desktop\\PC_Base_Control_Programming\\week12\\tServer\\tServer\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "tServer\\Form1.cs [\uB514\uC790\uC778]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T02:56:14.506Z",
               "EditorCaption": " [\uB514\uC790\uC778]"

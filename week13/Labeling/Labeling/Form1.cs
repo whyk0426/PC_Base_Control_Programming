@@ -155,31 +155,31 @@ namespace Labeling
 
 
             // 윤곽선 그리기
-            //{
-            //    // 엣지를 그릴 검은색 배경의 3채널 이미지 만들기
-            //    Mat edgeOutput = new Mat(matBin.Size(), MatType.CV_8UC3, Scalar.Black);
-            //    // 그리기
-            //    for (int i = 0; i < contours.Length; i++)
-            //    {
-            //        Cv2.DrawContours(edgeOutput, contours, i, new Scalar(255, 255, 255), 1);
-            //    }
-            //    picResult.Image = edgeOutput.ToBitmap();
-            //}
-            // 혹은 아래와 같이 Graphics를 이용하여 그릴수도 있음
-            // (자료구조를 파악할 수 있지만 느림)
             {
-                Graphics grp = picResult.CreateGraphics();
-                grp.Clear(Color.Black);
+                // 엣지를 그릴 검은색 배경의 3채널 이미지 만들기
+                Mat edgeOutput = new Mat(matBin.Size(), MatType.CV_8UC3, Scalar.Black);
+                // 그리기
                 for (int i = 0; i < contours.Length; i++)
                 {
-                    for (int j = 0; j < contours[i].Length - 1; j++)
-                    {
-                        //grp.DrawEllipse(new Pen(Color.White), contours[i][j].X, contours[i][j].Y, 1, 1);
-                    }
-                    //grp.DrawLine(new Pen(Color.White), contours[i][contours[i].Length - 1].X, contours[i][contours[i].Length - 1].Y,
-                    //                                   contours[i][0].X, contours[i][0].Y);
+                    Cv2.DrawContours(edgeOutput, contours, i, new Scalar(255, 255, 255), 1);
                 }
+                picResult.Image = edgeOutput.ToBitmap();
             }
+            // 혹은 아래와 같이 Graphics를 이용하여 그릴수도 있음
+            // (자료구조를 파악할 수 있지만 느림)
+            //{
+            //    Graphics grp = picResult.CreateGraphics();
+            //    grp.Clear(Color.Black);
+            //    for (int i = 0; i < contours.Length; i++)
+            //    {
+            //        for (int j = 0; j < contours[i].Length - 1; j++)
+            //        {
+            //            grp.DrawEllipse(new Pen(Color.White), contours[i][j].X, contours[i][j].Y, 1, 1);
+            //        }
+            //grp.DrawLine(new Pen(Color.White), contours[i][contours[i].Length - 1].X, contours[i][contours[i].Length - 1].Y,
+            //                                   contours[i][0].X, contours[i][0].Y);
+            //    }
+            //}
         }
 
         private void btnLabeling_Click(object sender, EventArgs e)
@@ -214,16 +214,24 @@ namespace Labeling
             {
                 txtLabelingResult.Text += "라벨번호= " + Convert.ToString(i).PadLeft(2) + "  " +
                                         "면적= " + Convert.ToString(area[i]).PadLeft(5) + "  " +
-                                        "중심= " + string.Format("{0:0.00}", xcen[i]) + ", " +
+                                        "중심= " + string.Format("{0:0.00}", xcen[i]) + ", " + 
                                                     string.Format("{0:0.00}", ycen[i]) + "\r\n";
-                txtLabelingResult.Text += Convert.ToString(i).PadLeft(2) + "  " +
-                                        "3" + "circle";
+            }
+            txtLabelingResult.Text += "\r\n";
+            for (int i = 0; i < distance.Length; i++)
+            {
+                txtLabelingResult.Text += Convert.ToString(i+1).PadLeft(2) + " = " + ShapeOfContour(distance[i]) + " Circle" + "\r\n";
             }
         }
         private int ShapeOfContour(double[] distance)
         {
-            
-            return 0;
+            int num = 0;
+            for(int i = 0; i < distance.Length; i++)
+            {
+                int j = (i + 4) % distance.Length;
+                if (Math.Abs(distance[i]-distance[j])< 0.5) num++;
+            }
+            return num;
         }
         private void GetLabelMat(int nLabels,
                          Mat labels, Mat stats, Mat centroids,
@@ -298,11 +306,12 @@ namespace Labeling
             HierarchyIndex[] hierarchy;
             Cv2.FindContours(matBin, out contours, out hierarchy, RetrievalModes.External, ContourApproximationModes.ApproxNone);
 
-            distance = new double[nLabels][];
+            distance = new double[contours.Length][];
             {
-                for (int i = 0; i < contours.Length; i++)
+                for (int i = 0; i < distance.Length; i++)
                 {
-                    for (int j = 0; j < contours[i].Length - 1; j++)
+                    distance[i] = new double[contours[i].Length];
+                    for (int j = 0; j < contours[i].Length; j++)
                     {
                         double x_diff = xcen[i] - contours[i][j].X;
                         double y_diff = ycen[i] - contours[i][j].Y;
